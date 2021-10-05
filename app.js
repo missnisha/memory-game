@@ -1,5 +1,6 @@
 const section = document.querySelector('section');
-const playerLivesCount = document.querySelector('span');
+const playerLivesCount = document.querySelector('.playerLivesCount');
+let title = document.querySelector('.title');
 
 let playerLives = 6;
 
@@ -106,11 +107,14 @@ const checkCards = (e) => {
       setTimeout(() => {
         restart("Try again");
       }, 1000)
+     
    }
 }
 //check wins
 if(toggleCard.length === 16) {
+   
     restart("You won!")
+   
 }
 
 }
@@ -137,6 +141,7 @@ const restart = (text) => {
    playerLives = 6;
    playerLivesCount.textContent = playerLives;
    setTimeout(() => window.alert(text), 100)
+   
 }
 
 cardGenerator();

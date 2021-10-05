@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 h1 {
-    margin-top: -40px;
+  
     color: white;
     font-size: 1.5rem;
     margin-bottom: 1rem;
@@ -12,11 +12,11 @@ h1 {
 h2 {
     margin-bottom: 2rem;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 body {
-    height: 100vh;
+   min-height: 100vh;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     display: flex;
@@ -30,9 +30,10 @@ section {
     display: grid;
     grid-template-columns: repeat(4, 8.8rem);
     grid-template-rows: repeat(4, 8.8rem);
-    row-gap: 50px;
-    column-gap: 50px;
+    row-gap: 30px;
+    column-gap: 30px;
     perspective: 800px;
+    margin-bottom: 60px;
 }
 
 .card {
