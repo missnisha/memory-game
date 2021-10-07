@@ -1,6 +1,8 @@
 # 🔮 Memory Game
 Simple memory game with HTML generated via Javascript functions.
 
-Only for desktop devices.
+### Desktop version:
+See and play at
+https://missnisha.github.io/memory-game/
 
 
