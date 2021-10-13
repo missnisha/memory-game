@@ -3,7 +3,7 @@ Simple memory game with HTML generated via Javascript functions.
 Will you win?
 
 ### Desktop version:
-See and play at
+See demo and play the game at
 https://missnisha.github.io/memory-game/
 
 
